@@ -1,33 +1,4 @@
-body {
-    margin: 0;
-    font-family: "Roboto";
-}
-.header {
-    background-color: #0080ff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 25px;
-}
-.logo {
-    width: 100px;
-}
-.header-links a {
-    color: white;
-    padding: 5px 25px;
-    border-radius: 15px;
-    text-decoration: none;
-}
-.header-links a:hover {
-    background-color: #2386fe;
-}
-.header-links button {
-    color: white;
-    background-color: #EE6260;
-    padding: 5px 25px;
-    border: none;
-    border-radius: 15px;
-}
-.header-links button:hover {
-    background-color: #f2858f;
+body{
+    background-color: lightblue;
+    color: darkblue;
 }
