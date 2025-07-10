@@ -1,0 +1,7 @@
+.ordered-list{
+    list-style-type: upper-roman;
+    color: blue;
+}
+.ordered-list li::marker{
+    color: red;
+}
