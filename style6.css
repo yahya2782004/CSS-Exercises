@@ -1,0 +1,12 @@
+.shadow {
+    text-shadow: 2px 2px 5px gray;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.underline {
+    text-decoration: underline;
+}
+.spacing {
+    word-spacing: 10px;
+}
