@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box1{
+    background-color: hsl(210, 100%, 90%);
+}
+.box2{
+    background-color: hsl(210, 100%, 75%);
+}
+.box3{
+    background-color: hsl(210, 100%, 60%);
+}
+.box4{
+    background-color: hsl(210, 100%, 45%);
+}
+.box5{
+    background-color: hsl(210, 100%, 30%);
+}
