@@ -1,0 +1,19 @@
+.responsive-text{
+    padding: 20px;
+    text-align: center;
+}
+@media (min-width: 1025px){
+    .responsive-text{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .responsive-text{
+        font-size: 16px;
+    }
+}
+@media (max-width: 767px){
+    .responsive-text{
+        font-size: 14px;
+    }
+}
