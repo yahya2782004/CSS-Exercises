@@ -1,9 +1,12 @@
 p{
     color: blue;
 }
-.special{
+.note{
     color: red;
 }
-#unique{
+#urgent{
     color: green;
+}
+p{
+    color: turquoise !important;
 }
