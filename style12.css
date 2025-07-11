@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+}
+.element:nth-child(1){
+    background-color: blue;
+}
+.element:nth-child(2){
+    background-color: green;
+}
+.element:nth-child(3){
+    background-color: black;
+}
+.element:nth-child(4){
+    background-color: yellow;
+}
+.element:nth-child(5){
+    background-color: pink;
+}
+.element:nth-child(6){
+    background-color: purple;
+}
+.element:nth-child(7){
+    background-color: orange;
+}
+.element:nth-child(8){
+    background-color: brown;
+}
+.element:nth-child(9){
+    background-color: turquoise;
+}
