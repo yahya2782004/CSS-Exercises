@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f6f8fa;
+  color: #222;
+}
+header {
+  background: #24527a;
+  color: #fff;
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background: #1e3a5c;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 12px 12px;
+}
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 18px;
+  display: block;
+  transition: background 0.3s;
+}
+.navbar li a:hover {
+  background: #16324c;
+  border-radius: 6px;
+}
+section {
+  max-width: 700px;
+  margin: 32px auto;
+  background: #fff;
+  padding: 28px 22px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #0001;
+}
+h2 {
+  color: #24527a;
+  margin-bottom: 18px;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.skills-list li {
+  background: #2d7dd2;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+.projects-grid {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-card {
+  background: #f0f4fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 18px 14px;
+  width: 210px;
+  min-width: 180px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1.5px solid #a0b7d1;
+  border-radius: 6px;
+  padding: 9px 10px;
+  font-size: 15px;
+  background: #f9fafb;
+  transition: border 0.2s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #24527a;
+  outline: none;
+}
+.contact-form button {
+  background: #2d7dd2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 11px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.contact-form button:hover {
+  background: #24527a;
+}
+footer {
+  text-align: center;
+  background: #1e3a5c;
+  color: #fff;
+  padding: 15px 0;
+  border-radius: 12px 12px 0 0;
+  margin-top: 40px;
+}
+@media (max-width: 800px) {
+  section {
+    max-width: 95%;
+    padding: 14px 6px;
+  }
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card {
+    width: 95%;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 0;
+    border-radius: 0;
+  }
+  .navbar li a {
+    border-bottom: 1px solid #294466;
+  }
+}
