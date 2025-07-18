@@ -1,0 +1,59 @@
+/* Whole Page Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* main Navigator Style */
+.main-nav {
+  background-color: #333;
+  padding: 10px 20px;
+  position: relative;
+}
+.nav-list {
+  list-style: none;
+  display: flex;   /* default flex directin is horizontal  */
+  justify-content: flex-start;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display: block;
+}
+/*Hide the hamburger icon in big screens (Laptop & Large Display)*/
+.hamburger-menu {
+  display: none;    /*Hide property*/
+}
+/* Hide the checkbox in big screens (Laptop & Large Display) */
+#control-parameter {
+  display: none;
+}
+/* Responsive design: Apply the following CSS only for mobile phone / tabllet (small screens less than 768px) */
+@media (max-width: 768px) {
+  .hamburger-menu {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    width: max-content; /* only fits icon */
+    padding: 10px;
+    padding: 10px;
+    display: block; /* Show hamburger icon */
+  }
+  .nav-list { 
+    display: none;
+  }
+/* When hamburger icon is clicked, the checkbox is checked, and the following is applied */
+  #control-parameter:checked + .hamburger-menu + .nav-list {
+    display: flex;  /* show the nav and use Vertical flex layout */ 
+    flex-direction: column;  /* make Vertical layout of flex container */
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    width: 80%;
+    left: 0;
+  }
+}
